@@ -1,0 +1,55 @@
+﻿生成启动时间为 2019/4/16 10:34:37。
+     1>项目“E:\vs_project\AttTracklib-2019.4.9\AttTrack_ekf\AttTrack_basic_lib\AttTrack1\AttTrack1.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\VS2015\VC\bin\CL.exe /c /I"E:\vs_project\AttTracklib-2019.4.9\AttTrack_ekf\AttTrack\AttTrack1" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ATTTRACK1_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt ATProcess.c AttInit.c AttTrack_lib.c Calibrate.c ComFunc.c CompassHeading.c config.c DataStruct.c GnssHeading.c kalmanfilter.c Matrix.c parson.c
+         parson.c
+         Matrix.c
+         kalmanfilter.c
+         GnssHeading.c
+         DataStruct.c
+     1>e:\vs_project\atttracklib-2019.4.9\atttrack_ekf\atttrack_basic_lib\atttrack1\datastruct.c(94): warning C4013: “sqrt”未定义；假设外部返回 int
+         config.c
+     1>e:\vs_project\atttracklib-2019.4.9\atttrack_ekf\atttrack_basic_lib\atttrack1\config.c(307): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vs_project\atttracklib-2019.4.9\atttrack_ekf\atttrack_basic_lib\atttrack1\config.c(318): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vs_project\atttracklib-2019.4.9\atttrack_ekf\atttrack_basic_lib\atttrack1\config.c(329): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vs_project\atttracklib-2019.4.9\atttrack_ekf\atttrack_basic_lib\atttrack1\config.c(340): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vs_project\atttracklib-2019.4.9\atttrack_ekf\atttrack_basic_lib\atttrack1\config.c(351): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vs_project\atttracklib-2019.4.9\atttrack_ekf\atttrack_basic_lib\atttrack1\config.c(362): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vs_project\atttracklib-2019.4.9\atttrack_ekf\atttrack_basic_lib\atttrack1\config.c(411): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vs_project\atttracklib-2019.4.9\atttrack_ekf\atttrack_basic_lib\atttrack1\config.c(421): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vs_project\atttracklib-2019.4.9\atttrack_ekf\atttrack_basic_lib\atttrack1\config.c(665): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vs_project\atttracklib-2019.4.9\atttrack_ekf\atttrack_basic_lib\atttrack1\config.c(666): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vs_project\atttracklib-2019.4.9\atttrack_ekf\atttrack_basic_lib\atttrack1\config.c(667): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         CompassHeading.c
+         ComFunc.c
+         Calibrate.c
+         AttTrack_lib.c
+         AttInit.c
+         ATProcess.c
+         正在生成代码...
+         E:\VS2015\VC\bin\CL.exe /c /I"E:\vs_project\AttTracklib-2019.4.9\AttTrack_ekf\AttTrack\AttTrack1" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ATTTRACK1_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         E:\VS2015\VC\bin\CL.exe /c /I"E:\vs_project\AttTracklib-2019.4.9\AttTrack_ekf\AttTrack\AttTrack1" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ATTTRACK1_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+       Link:
+         E:\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\vs_project\AttTracklib-2019.4.9\AttTrack_ekf\AttTrack_basic_lib\Debug\AttTrack1.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"Source.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\vs_project\AttTracklib-2019.4.9\AttTrack_ekf\AttTrack_basic_lib\Debug\AttTrack1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\vs_project\AttTracklib-2019.4.9\AttTrack_ekf\AttTrack_basic_lib\Debug\AttTrack1.lib" /MACHINE:X86 /DLL Debug\ATProcess.obj
+         Debug\AttInit.obj
+         Debug\AttTrack_lib.obj
+         Debug\Calibrate.obj
+         Debug\ComFunc.obj
+         Debug\CompassHeading.obj
+         Debug\config.obj
+         Debug\DataStruct.obj
+         Debug\dllmain.obj
+         Debug\GnssHeading.obj
+         Debug\kalmanfilter.obj
+         Debug\Matrix.obj
+         Debug\parson.obj
+         Debug\stdafx.obj
+           正在创建库 E:\vs_project\AttTracklib-2019.4.9\AttTrack_ekf\AttTrack_basic_lib\Debug\AttTrack1.lib 和对象 E:\vs_project\AttTracklib-2019.4.9\AttTrack_ekf\AttTrack_basic_lib\Debug\AttTrack1.exp
+         AttTrack1.vcxproj -> E:\vs_project\AttTracklib-2019.4.9\AttTrack_ekf\AttTrack_basic_lib\Debug\AttTrack1.dll
+     1>已完成生成项目“E:\vs_project\AttTracklib-2019.4.9\AttTrack_ekf\AttTrack_basic_lib\AttTrack1\AttTrack1.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:06.57

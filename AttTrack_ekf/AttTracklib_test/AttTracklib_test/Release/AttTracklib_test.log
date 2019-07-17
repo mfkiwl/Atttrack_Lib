@@ -1,0 +1,41 @@
+﻿生成启动时间为 2019/4/12 17:51:35。
+     1>项目“E:\vs_project\AttTracklib-2019.4.9\AttTrack_ekf\AttTracklib_test\AttTracklib_test\AttTracklib_test.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\VS2015\VC\bin\CL.exe /c /I"E:\vs_project\AttTracklib-2019.4.9\AttTracklib_test\AttTracklib_test" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt ATProcess.c AttTrack_lib.c Calibrate.c DataStruct.c GAtest.c
+         ATProcess.c
+         AttTrack_lib.c
+         Calibrate.c
+         DataStruct.c
+         GAtest.c
+     1>GAtest.c(195): warning C4098: “main”:“void”函数返回值
+     1>GAtest.c(157): warning C4101: “ahrspitchout1”: 未引用的局部变量
+       Link:
+         E:\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\vs_project\AttTracklib-2019.4.9\AttTrack_ekf\AttTracklib_test\Release\AttTracklib_test.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\vs_project\AttTracklib-2019.4.9\AttTrack_ekf\AttTracklib_test\Release\AttTracklib_test.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\vs_project\AttTracklib-2019.4.9\AttTrack_ekf\AttTracklib_test\Release\AttTracklib_test.lib" /MACHINE:X86 /SAFESEH Release\ATProcess.obj
+         Release\AttInit.obj
+         Release\AttTrack.obj
+         Release\AttTrack_lib.obj
+         Release\Calibrate.obj
+         Release\ComFunc.obj
+         Release\CompassHeading.obj
+         Release\config.obj
+         Release\DATAread.obj
+         Release\DataStruct.obj
+         Release\GAtest.obj
+         Release\GnssHeading.obj
+         Release\kalmanfilter.obj
+         Release\Matrix.obj
+         Release\parson.obj
+         Release\stdafx.obj
+         Release\stdafx.obj
+     1>Release\stdafx.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+         正在生成代码
+         3 of 200 functions ( 1.5%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         已完成代码的生成
+         AttTracklib_test.vcxproj -> E:\vs_project\AttTracklib-2019.4.9\AttTrack_ekf\AttTracklib_test\Release\AttTracklib_test.exe
+     1>已完成生成项目“E:\vs_project\AttTracklib-2019.4.9\AttTrack_ekf\AttTracklib_test\AttTracklib_test\AttTracklib_test.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.54

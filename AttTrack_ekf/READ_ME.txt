@@ -1,0 +1,3 @@
+1、文件夹AttTrack_basic为姿态跟踪ekf算法基础版本，只包含单轴角度输出，其中包含了三种单轴角度跟踪的例子demo
+2、文件夹AttTrack_basic_lib为ekf算法动态库（win32，debug），包含了单轴姿态跟踪
+3、文件夹AttTracklib_test为ekf动态库测试代码(包含了单轴、双轴、三轴角度跟踪算法)
